@@ -8,6 +8,29 @@
         <script src="Script/InteractiveStory.js"></script>
     </head>
     <body>
-        <h1>Hello, World!</h1>
+        <div class = "title">
+            <h1>Interactive Story</h1>
+        </div>
+
+        <div class = "music_container">
+            <audio class = "music" controls autoplay muted loop>
+                <source src="Music/BackgroundAudio.mp3" type="audio/mpeg">
+                <source src="Music/BackgroundAudio.wav" type="audio/wav">
+            </audio>
+        </div>
+
+        <div class = "container">
+            <div id = "text" class = "text">Text</div>
+            <div id = "option-buttons" class = "btn-grid">
+                <button class = "btn">Option 1</button>
+                <button class = "btn">Option 2</button>
+            </div>
+        </div>
+
+        <div class = "replay-container">
+            <button id = "back-button" class = "replay">Back</Replay></button>
+
+        </div>
+
     </body>
 </html>
