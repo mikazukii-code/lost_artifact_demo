@@ -20,19 +20,21 @@ body {
     position: fixed;
     top: 10px;
     left: 10px;
+    z-index: 1000;
 }
 .music {
     width: 300px;
 }
 /* 📜 Story Text */
 .text {
-    font-weight: 500;
-    font-size: 1.2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.8;
     text-align: center;
+    color: rgb(235, 234, 201)
 }
 /* 📦 Story Container */
 .container {
@@ -42,7 +44,7 @@ body {
     height: auto;
     max-height: 80vh;
     background-image: linear-gradient(to right, rgba(8, 198, 93, 0.5), rgba(7, 140, 149, 0.7));
-    background-color: white;
+    /*background-color: white;*/
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -64,7 +66,7 @@ body {
 .btn,
 .replay {
     font-size: 1rem;
-    background-color: hsl(200, 100%, 50%);
+    background-color: hsl(280, 72%, 49%);
     border-radius: 8px;
     padding: 15px;
     color: white;
