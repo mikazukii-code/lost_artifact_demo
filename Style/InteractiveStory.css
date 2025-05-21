@@ -41,6 +41,7 @@ body {
     min-width: 300px;
     height: auto;
     max-height: 80vh;
+    background-image: linear-gradient(to right, rgba(8, 198, 93, 0.5), rgba(7, 140, 149, 0.7));
     background-color: white;
     padding: 20px;
     border-radius: 10px;
