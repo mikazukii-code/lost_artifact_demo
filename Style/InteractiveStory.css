@@ -2,7 +2,6 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-
 body {
     padding: 0;
     margin: 0;
@@ -16,19 +15,15 @@ body {
     background-size: cover;
     background-position: center;
 }
-
 /* 🎵 Music controls (fixed in top-right) */
 .music-container {
     position: fixed;
     top: 10px;
     left: 10px;
-    z-index: 1000;
 }
-
 .music {
     width: 300px;
 }
-
 /* 📜 Story Text */
 .text {
     font-weight: 500;
@@ -56,4 +51,94 @@ body {
     align-items: center;
     text-align: center;
     animation: fadeIn 1s ease-in-out;
+}
+/* 🎮 Buttons */
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+    width: 50%;
+}
+.btn,
+.replay {
+    font-size: 1rem;
+    background-color: hsl(200, 100%, 50%);
+    border-radius: 8px;
+    padding: 15px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.btn:hover,
+.replay:hover {
+    background-color: hsl(200, 100%, 40%);
+    transform: scale(1.05);
+}
+.replay-container{
+    position: fixed;
+    top: 10px;
+    right: 5px;
+    z-index: 1000;
+}
+.replay{
+    width: 100px;
+    border-radius: 50px;
+    margin: 10px;
+    /* padding-left: px; */
+    padding: 10px;
+    cursor: pointer;
+}
+/* 📱 Mobile-friendly adjustments */
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container {
+        width: 95%;
+        max-width: 400px;
+        padding: 15px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 12px;
+    }
+
+    .music {
+        width: 100px;
+    }
+
+    .replay {
+        width: 80px; /* Adjusted size */
+        padding: 8px 16px;
+}
+
+    .replay-container {
+        position: fixed;
+        top: 10px;
+        right: 2px; /* Ensures it stays on the right */
+        z-index: 1000;
+    }
+}
+/* 🌟 Smooth fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
