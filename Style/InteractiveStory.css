@@ -10,7 +10,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     height: 100vh;
     background-color: #3c1c1c;
     background-image: url('../images/image.png');
