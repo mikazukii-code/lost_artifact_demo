@@ -14,8 +14,8 @@ body {
     justify-content: center;
     align-content: center;
     height: 100vh;
-    background-color: #333;
-    background-image: url(../images/Background.jpg);
+    background-color: #3c1c1c;
+    background-image: url('../images/Background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
