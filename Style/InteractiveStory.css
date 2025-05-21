@@ -1,10 +1,8 @@
-h1{
-    color:aqua;
-}
-::before, ::after{
+*, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -12,9 +10,50 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #3c1c1c;
+    background-color: #333;
     background-image: url('../images/image.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+/* 🎵 Music controls (fixed in top-right) */
+.music-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
+
+.music {
+    width: 300px;
+}
+
+/* 📜 Story Text */
+.text {
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.8;
+    text-align: center;
+}
+/* 📦 Story Container */
+.container {
+    width: 90%;
+    max-width: 800px;
+    min-width: 300px;
+    height: auto;
+    max-height: 80vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
 }
