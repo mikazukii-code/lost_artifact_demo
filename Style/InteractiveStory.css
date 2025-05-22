@@ -43,7 +43,7 @@ body {
     min-width: 300px;
     height: auto;
     max-height: 80vh;
-    background-image: linear-gradient(to right, rgba(196, 129, 21, 0.5), rgba(208, 91, 13, 0.774));
+    background-image: linear-gradient(to right, rgba(196, 129, 21, 0.286), rgba(208, 91, 13, 0.412));
     /*background-color: white;*/
     padding: 20px;
     border-radius: 10px;
