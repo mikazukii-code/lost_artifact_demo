@@ -27,14 +27,14 @@ body {
 }
 /* 📜 Story Text */
 .text {
-    font-weight: 600;
-    font-size: 1.4rem;
+    font-weight: 500;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
     line-height: 1.8;
     text-align: center;
-    color: rgb(235, 234, 201)
+    color: rgba(212, 241, 236, 0.91)
 }
 /* 📦 Story Container */
 .container {
@@ -43,7 +43,7 @@ body {
     min-width: 300px;
     height: auto;
     max-height: 80vh;
-    background-image: linear-gradient(to right, rgba(8, 198, 93, 0.5), rgba(7, 140, 149, 0.7));
+    background-image: linear-gradient(to right, rgba(196, 129, 21, 0.5), rgba(208, 91, 13, 0.774));
     /*background-color: white;*/
     padding: 20px;
     border-radius: 10px;
