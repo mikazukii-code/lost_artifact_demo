@@ -34,7 +34,8 @@ body {
     align-items: center;
     line-height: 1.8;
     text-align: center;
-    color: rgba(212, 241, 236, 0.91)
+    color: rgb(149, 255, 205);
+    /*-webkit-text-stroke: 0.3px black;*/
 }
 /* 📦 Story Container */
 .container {
@@ -43,8 +44,8 @@ body {
     min-width: 300px;
     height: auto;
     max-height: 80vh;
-    background-image: linear-gradient(to right, rgba(196, 129, 21, 0.286), rgba(208, 91, 13, 0.412));
-    /*background-color: white;*/
+    background-image: linear-gradient(to right, rgba(196, 129, 21, 0.701), rgba(101, 44, 7, 0.663));
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
