@@ -1,6 +1,6 @@
 *, *::before, *::after {
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: cursive, Comic Sans MS;
 }
 body {
     padding: 0;
@@ -45,7 +45,7 @@ body {
     height: auto;
     max-height: 80vh;
     background-image: linear-gradient(to right, rgba(196, 129, 21, 0.701), rgba(101, 44, 7, 0.663));
-    background-color: white;
+    /*background-color: white;*/
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
@@ -67,7 +67,7 @@ body {
 .btn,
 .replay {
     font-size: 1rem;
-    background-color: hsl(280, 72%, 49%);
+    background-color: hsl(280, 63%, 65%);
     border-radius: 8px;
     padding: 15px;
     color: white;
