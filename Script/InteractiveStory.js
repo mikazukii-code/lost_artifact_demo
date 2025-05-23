@@ -10,7 +10,7 @@ const textNodes = [
         id: 0,
         text: `You are Alex, a young scholar in the town of Eldoria. Legends tell of a powerful artifact hidden deep within the Whispering Woods, an object said to grant immense wisdom to whoever possesses it. 
         For centuries, treasure hunters and historians have searched for it, but none have returned. 
-        One evening, while researching ancient texts, you uncover a cryptic map-your only clue to unlocking the mystery. 
+        One evening, while researching ancient texts, you uncover a cryptic map - your only clue to unlocking the mystery. 
         Now, you must decide: will you embark on this dangerous journey alone, or seek guidance before venturing into the unknown?`,
         options: [
             {
@@ -25,7 +25,7 @@ const textNodes = [
         id: 1,
         text: `As you study the fragile map, your heart races. The markings hint at a hidden
             path leading to the artifact's resting place. A name scribbled in the corner catches your
-            eye—Professor Eldrin, a historian who once pursued the legend himself. What will you do?` ,
+            eye — Professor Eldrin, a historian who once pursued the legend himself. What will you do?` ,
         options: [
             {
                 text: "Visit Professor Eldrin to learn more about the artifact and possible dangers.",
